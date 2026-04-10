@@ -1,0 +1,45 @@
+// Praxis Core Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM163",
+  slug: "praxis-core",
+  name: "Praxis Core",
+  fullName: "Praxis Core",
+  alias: "Praxis Core",
+  family: "Praxis",
+  category: "Eligibility",
+  subcategory: "Teacher prep",
+  country: "United States",
+  region: "North America",
+  languages: ["English"],
+  estimatedAnnualTakers: "varies",
+  testingWindow: "Year-round",
+  schedulePattern: "Continuous",
+  ageGroup: "18-35",
+  targetUser: "Teacher candidate",
+  delivery: "Computer-based",
+  questionTypes: ["Reading","writing","math"],
+  adaptivity: "Linear",
+  sections: "3 tests",
+  scoringMode: "Scaled/pass",
+  essayOrSpeaking: "Writing",
+  ipRisk: "High",
+  contentReuse: "teacher_eligibility",
+  uiEngine: "objective_plus_essay",
+  monetizationPotential: "Medium",
+  tier: "Tier 7",
+  launchWave: "Wave 9",
+  themeColor: "#8B5CF6",
+  themeColorDark: "#7C3AED",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: false,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;

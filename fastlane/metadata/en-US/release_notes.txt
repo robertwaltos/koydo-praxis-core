@@ -1,0 +1,5 @@
+Initial release of Koydo Praxis Core Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration
